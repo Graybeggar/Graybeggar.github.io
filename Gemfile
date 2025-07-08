@@ -38,5 +38,5 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
 end
 
 # Performance-booster for watching directories on Windows
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.9"
 # gem "ffi", "~> 1.16.3"
